@@ -8,7 +8,7 @@ A simple script to mash images together in horizontal or vertical strips.
 You can install it via pip: `pip install Pillow`  
 
 ####Usage
-Feed it a list of files or URLs and it will create a series of "image strips". Which is the visible part of each image depends on its final position in the mashed up image.  
+Feed it a list of files or URLs and it will create a series of "image strips". The visible part of each image depends on its final position in the mashed up image.  
 Can be used as a command line script or a library. Use --help to view options for the former.
 To use it as a library import the file and call the `mash` method.
 
