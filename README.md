@@ -2,17 +2,17 @@
 A simple script to mash images together in horizontal or vertical strips.
 
 -
-####Requirements
+#### Requirements
 - Python 2.7
 - Pillow 4.0.0  
 You can install it via pip: `pip install Pillow`  
 
-####Usage
+#### Usage
 Feed it a list of files or URLs and it will create a series of "image strips". The visible part of each image depends on its final position in the mashed up image.  
 Can be used as a command line script or a library. Use --help to view options for the former.
 To use it as a library import the file and call the `mash` method.
 
-####Examples
+#### Examples
 All arguments except `images` are optional, with sane default values. You can pass in filepaths, URLs or a mix of both.
 ```
 import masher
