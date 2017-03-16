@@ -1,7 +1,6 @@
 # image-masher
 A simple script to mash images together in horizontal or vertical strips.
 
--
 #### Requirements
 - Python 2.7
 - Pillow 4.0.0  
